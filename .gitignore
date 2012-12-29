@@ -1,0 +1,13 @@
+.DS_Store
+*#*#
+*~
+
+ac-comphist.dat
+auto-save-list
+backups
+history
+url
+anything-c-adaptive-history
+undohist
+swank
+tramp
