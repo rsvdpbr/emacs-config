@@ -29,6 +29,7 @@
 (require 'init-color-moccur)
 (require 'init-color-theme)
 (require 'init-elscreen)
+(require 'init-jade-mode)
 (require 'init-js2-mode)
 (require 'init-magit)
 (require 'init-paredit)
