@@ -8,6 +8,7 @@
 (require 'init-server)
 (require 'init-key)
 (require 'init-general)
+(require 'init-chrome)
 
 ;; built-in
 (add-to-list 'load-path "~/.emacs.d/conf/built-in")
@@ -23,6 +24,7 @@
 (add-to-list 'load-path "~/.emacs.d/conf/package")
 (require 'init-package)
 (require 'init-anything)
+(require 'init-applescript-mode)
 (require 'init-auto-complete)
 ;;(require 'init-clojure-mode)
 (require 'init-coffee-mode)
