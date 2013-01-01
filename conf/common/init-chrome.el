@@ -12,7 +12,7 @@
   (interactive "sGoogle Search: ")
   (shell-command (concat
 				  "osascript ~/.emacs.d/etc/chrome/interface.applescript search "
-				  (encode-coding-string string 'utf-8))))
+				  "'" (encode-coding-string string 'utf-8) "'")))
 
 (defun chrome-scroll-next ()
   (interactive)
