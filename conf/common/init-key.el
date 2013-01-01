@@ -26,13 +26,13 @@
 ;; ウィンドウ移動
 (global-set-key (kbd "C-q") 'other-window)
 
+;; 単語移動
+(global-set-key (kbd "M-f") 'forward-word)
+(global-set-key (kbd "M-b") 'backward-word)
+
 ;; ウィンドウサイズ変更
-(global-set-key (kbd "M-p") 'enlarge-window)
 (global-set-key (kbd "M-P") 'shrink-window)
-(global-set-key (kbd "M-n") 'shrink-window)
 (global-set-key (kbd "M-N") 'enlarge-window)
-(global-set-key (kbd "M-f") 'enlarge-window-horizontally)
 (global-set-key (kbd "M-F") 'shrink-window-horizontally)
-(global-set-key (kbd "M-b") 'shrink-window-horizontally)
 (global-set-key (kbd "M-B") 'enlarge-window-horizontally)
 
