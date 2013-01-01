@@ -1,6 +1,6 @@
 
 on run argv
-   tell application "Google Chrome"
+	tell application "Google Chrome"
 		tell window 1
 			if ("search" = item 1 of argv) then
 				 open location "http://google.com/search?q=" & item 2 of argv
@@ -8,6 +8,8 @@ on run argv
 				 	set active tab index to active tab index + 1
 			else if ("prev-tab" = item 1 of argv) then
 				 	set active tab index to active tab index -1
+			else if ("tab-close" = item 1 of argv) then
+					active tab close
 			else
 		   		tell active tab
 		 			 if ("next" = item 1 of argv) then

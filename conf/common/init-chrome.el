@@ -41,13 +41,22 @@
 (defun chrome-prev-tab ()
   (interactive)
   (shell-command "osascript ~/.emacs.d/etc/chrome/interface.applescript prev-tab"))
+(defun chrome-tab-close ()
+  (interactive)
+  (shell-command "osascript ~/.emacs.d/etc/chrome/interface.applescript tab-close"))
+
+
+(global-set-key (kbd "C-S-g") 'google-search)
+(global-set-key (kbd "s-s") 'chrome-search)
 
 (global-set-key (kbd "s-n") 'chrome-scroll-next)
 (global-set-key (kbd "s-p") 'chrome-scroll-previous)
+
+(global-set-key (kbd "s-r") 'chrome-reload)
+
 (global-set-key (kbd "s-f") 'chrome-go-forward)
 (global-set-key (kbd "s-b") 'chrome-go-back)
-(global-set-key (kbd "s-r") 'chrome-reload)
-(global-set-key (kbd "C-S-g") 'google-search)
-(global-set-key (kbd "s-s") 'chrome-search)
+
 (global-set-key (kbd "s-<tab>") 'chrome-next-tab)
 (global-set-key (kbd "s-C-<tab>") 'chrome-prev-tab)
+(global-set-key (kbd "s-w") 'chrome-tab-close)
