@@ -15,6 +15,7 @@
 
 ;; Delete
 (global-set-key (kbd "C-h") 'delete-backward-char)
+(global-set-key (kbd "C-M-h") 'backward-kill-word)
 (define-key isearch-mode-map (kbd "C-h") 'isearch-delete-char)
 
 ;; 行の折り返し表示を切り替える
