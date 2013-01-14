@@ -12,6 +12,7 @@
 
 ;; built-in
 (add-to-list 'load-path "~/.emacs.d/conf/built-in")
+(require 'init-cc-mode)
 (require 'init-cl)
 (require 'init-migemo)
 (require 'init-org)
