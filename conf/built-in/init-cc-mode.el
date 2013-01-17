@@ -15,3 +15,6 @@
           '(lambda ()
              (flymake-mode t)))
 
+;;; キーバインドの設定
+(define-key c-mode-base-map (kbd "C-c C-c") 'compile)
+

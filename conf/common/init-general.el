@@ -12,6 +12,10 @@
 ;; window
 (set-frame-parameter nil 'alpha 80)
 
+;; ユーザーの設定
+(setq user-full-name "Ryo Nishikawa")
+(setq user-mail-address "water.leads.itiv.se@gmail.com")
+
 ;; ドラッグアンドドロップでファイルを開く
 (define-key global-map [ns-drag-file] 'ns-find-file)
 (setq ns-pop-up-frames nil)
