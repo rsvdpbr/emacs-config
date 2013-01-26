@@ -12,7 +12,6 @@
 
 ;; built-in
 (add-to-list 'load-path "~/.emacs.d/conf/built-in")
-(require 'init-cc-mode)
 (require 'init-cl)
 (require 'init-migemo)
 (require 'init-org)
@@ -52,5 +51,8 @@
 (require 'init-cake)
 (require 'init-howm)
 (require 'init-undohist)
+
+;; dependency
+(require 'init-cc-mode)
 
 
