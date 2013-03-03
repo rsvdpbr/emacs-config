@@ -137,5 +137,7 @@
   (add-hook 'bookmark-after-jump-hook 'bookmark-arrange-latest-top)
 )
 
-
-
+;; 現在のディレクトリをFinderで開く
+(defun open-current-directory ()
+  (interactive)
+  (shell-command "open ."))
