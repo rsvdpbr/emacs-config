@@ -13,6 +13,7 @@
 			(setq indent-tabs-mode t)
             (php-completion-mode t)
 			(define-key php-mode-map (kbd "C-c C-<SPC>") 'phpcmp-complete) ;補完キー
+			(define-key php-mode-map (kbd "C-M-h") 'backward-kill-word)
             (make-local-variable 'ac-sources)
             (setq ac-sources '(
                                ac-source-words-in-same-mode-buffers
