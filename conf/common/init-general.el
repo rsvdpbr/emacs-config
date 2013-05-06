@@ -53,6 +53,7 @@
 	       'css-mode-hook
 	       'python-mode-hook
 	       'c++-mode-hook
+	       'ruby-mode-hook
              ))
 (add-hook hook (lambda () (linum-mode t))))
 

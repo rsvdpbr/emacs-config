@@ -16,6 +16,8 @@
 (require 'init-migemo)
 (require 'init-org)
 (require 'init-recentf)
+(require 'init-ruby)
+(require 'init-shell-script)
 (require 'init-uniquify)
 (require 'init-wdired)
 (require 'init-tramp)
