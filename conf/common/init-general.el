@@ -15,6 +15,15 @@
 ;; window
 (set-frame-parameter nil 'alpha 80)
 
+;; フォント
+(create-fontset-from-ascii-font "Ricty-13:weight=normal:slant=normal" nil "ricty")
+(set-fontset-font "fontset-ricty"
+                  'unicode
+                  (font-spec :family "Ricty" :size 13)
+                  nil
+                  'append)
+(add-to-list 'default-frame-alist '(font . "fontset-ricty"))
+
 ;; ユーザーの設定
 (setq user-full-name "Ryo Nishikawa")
 (setq user-mail-address "water.leads.itiv.se@gmail.com")
