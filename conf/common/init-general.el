@@ -6,8 +6,11 @@
 (setq url-proxy-services nil)
 
 ;; IMEの設定
-(setq default-input-method "MacOSX")
-(mac-add-key-passed-to-system 'shift)
+(when darwin-p
+  (setq default-input-method "MacOSX")
+  (mac-add-key-passed-to-system 'shift))
+(when linux-p
+  (setq default-input-method "japanese-mozc"))
 
 ;; window
 (set-frame-parameter nil 'alpha 80)

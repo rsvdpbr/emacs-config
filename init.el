@@ -1,10 +1,10 @@
-
 ;; emacs-24.2 for mac os x
 
 (add-to-list 'load-path "~/.emacs.d/elisp")
 
 ;; common
 (add-to-list 'load-path "~/.emacs.d/conf/common")
+(require 'init-environment)
 (require 'init-server)
 (require 'init-key)
 (require 'init-general)
@@ -56,5 +56,4 @@
 
 ;; dependency
 (require 'init-cc-mode)
-
 
