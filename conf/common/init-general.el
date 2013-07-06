@@ -5,10 +5,12 @@
 (setq url-proxy-services '(("http" . "www-proxy.waseda.jp:8080")))
 (setq url-proxy-services nil)
 
+
 ;; IMEの設定
 (when darwin-p
   (setq default-input-method "MacOSX")
-  ;;(mac-add-key-passed-to-system 'shift)
+  (mac-add-key-passed-to-system 'shift)
+  (add-hook 'minibuffer-setup-hook 'mac-change-language-to-us)
   )
 (when linux-p
   (setq default-input-method "japanese-mozc"))
