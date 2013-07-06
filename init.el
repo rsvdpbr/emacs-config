@@ -39,6 +39,7 @@
 (require 'init-paredit)
 (require 'init-php-mode)
 (require 'init-python-mode)
+(require 'init-redo+)
 (require 'init-scala-mode2)
 ;;(require 'init-slime)
 (require 'init-undo-tree)
