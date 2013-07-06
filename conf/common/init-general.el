@@ -8,7 +8,8 @@
 ;; IMEの設定
 (when darwin-p
   (setq default-input-method "MacOSX")
-  (mac-add-key-passed-to-system 'shift))
+  ;;(mac-add-key-passed-to-system 'shift)
+  )
 (when linux-p
   (setq default-input-method "japanese-mozc"))
 
@@ -16,12 +17,22 @@
 (set-frame-parameter nil 'alpha 80)
 
 ;; フォント
-(create-fontset-from-ascii-font "Ricty-13:weight=normal:slant=normal" nil "ricty")
-(set-fontset-font "fontset-ricty"
-                  'unicode
-                  (font-spec :family "Ricty" :size 13)
-                  nil
-                  'append)
+(when darwin-p
+  (create-fontset-from-ascii-font "Ricty-13:weight=normal:slant=normal" nil "ricty")
+  (set-fontset-font "fontset-ricty"
+					'unicode
+					(font-spec :family "Ricty" :size 13)
+					nil
+					'append)
+  )
+(when linux-p
+  (create-fontset-from-ascii-font "Ricty-11:weight=normal:slant=normal" nil "ricty")
+  (set-fontset-font "fontset-ricty"
+					'unicode
+					(font-spec :family "Ricty" :size 11)
+					nil
+					'append)
+  )
 (add-to-list 'default-frame-alist '(font . "fontset-ricty"))
 
 ;; ユーザーの設定
