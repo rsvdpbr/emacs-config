@@ -9,4 +9,7 @@
 (global-set-key (kbd "M-}") 'elscreen-next)
 (global-set-key (kbd "M-{") 'elscreen-previous)
 (global-set-key (kbd "C-<tab>") 'elscreen-next)
-(global-set-key (kbd "C-S-<tab>") 'elscreen-previous)
+(when darwin-p
+  (global-set-key (kbd "C-S-<tab>") 'elscreen-previous))
+(when linux-p
+  (global-set-key (kbd "C-S-<iso-lefttab>") 'elscreen-previous))
