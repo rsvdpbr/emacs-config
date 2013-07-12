@@ -43,6 +43,7 @@
 (require 'init-scala-mode2)
 ;;(require 'init-slime)
 (require 'init-undo-tree)
+(require 'init-virtualenv-mode)
 (require 'init-w3m)
 (require 'init-yasnippet)
 
