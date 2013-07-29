@@ -36,6 +36,7 @@
 (require 'init-jade-mode)
 (require 'init-js2-mode)
 (require 'init-magit)
+(require 'init-markdown-mode)
 (require 'init-paredit)
 (require 'init-php-mode)
 (require 'init-python-mode)

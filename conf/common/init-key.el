@@ -27,6 +27,9 @@
 ;; ウィンドウ移動
 (global-set-key (kbd "C-q") 'other-window)
 
+;; 特殊文字挿入
+(global-set-key (kbd "M-q") 'quoted-insert)
+
 ;; 単語移動
 (global-set-key (kbd "M-f") 'forward-word)
 (global-set-key (kbd "M-b") 'backward-word)
