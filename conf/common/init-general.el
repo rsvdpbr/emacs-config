@@ -28,7 +28,7 @@
 					'append)
   )
 (when linux-p
-  (create-fontset-from-ascii-font "Ricty-11:weight=normal:slant=normal" nil "ricty")
+  (create-fontset-from-ascii-font "Ricty-10:weight=normal:slant=normal" nil "ricty")
   (set-fontset-font "fontset-ricty"
 					'unicode
 					(font-spec :family "Ricty" :size 11)
