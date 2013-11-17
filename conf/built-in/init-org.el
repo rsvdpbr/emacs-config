@@ -7,10 +7,10 @@
 	   ("php" . "")))
 (setq org-directory "~/Dropbox/Org/")
 (setq org-agenda-files (list org-directory
-							 "~/DropBox/Org/study/"
-							 "~/DropBox/Org/syukatsu/"
-							 "~/DropBox/Org/sandan/"
-							 "~/DropBox/Org/wasedasai/"))
+							 "~/DropBox/Document/Org/study/"
+							 "~/DropBox/Document/Org/syukatsu/"
+							 "~/DropBox/Document/Org/sandan/"
+							 "~/DropBox/Document/Org/wasedasai/"))
 (setq org-default-notes-file "notes.org")
 (setq auto-mode-alist
  (append
