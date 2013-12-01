@@ -11,7 +11,7 @@
 ;;; 正規表現置き換え
 (global-set-key (kbd "C-%") 'query-replace-regexp)
 ;;; フルスクリーン化
-(global-set-key (kbd "C-c f") 'ns-toggle-fullscreen)
+(global-set-key (kbd "C-c f") 'toggle-frame-fullscreen)
 
 ;; Delete
 (global-set-key (kbd "C-h") 'delete-backward-char)
