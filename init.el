@@ -25,6 +25,7 @@
 ;; package
 (add-to-list 'load-path "~/.emacs.d/conf/package")
 (require 'init-package)
+(require 'init-ace-jump-mode)
 (require 'init-anything)
 (require 'init-applescript-mode)
 (require 'init-auto-complete)
@@ -45,6 +46,7 @@
 (require 'init-scss-mode)
 (require 'init-scala-mode2)
 (require 'init-slime)
+(require 'init-undohist)
 (require 'init-undo-tree)
 (require 'init-virtualenv-mode)
 (require 'init-w3m)
@@ -52,12 +54,10 @@
 
 ;; elisp
 (add-to-list 'load-path "~/.emacs.d/conf/elisp")
-(require 'init-ace-jump-mode)
 (require 'init-historyf)
-(require 'init-cake)
 (require 'init-howm)
-(require 'init-undohist)
 
 ;; dependency
+(require 'init-cake2)
 (require 'init-cc-mode)
 

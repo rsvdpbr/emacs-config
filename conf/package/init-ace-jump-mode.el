@@ -1,7 +1,6 @@
 
 (provide 'init-ace-jump-mode)
 
-(add-to-list 'load-path "~/.emacs.d/elisp/ace-jump-mode")
 (require 'ace-jump-mode)
 
 (global-set-key (kbd "s-<SPC>") 'ace-jump-line-mode)
