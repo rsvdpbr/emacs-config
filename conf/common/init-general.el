@@ -119,7 +119,8 @@
 (setq display-time-24hr-format t) 
 (display-time-mode t)
 ;; モードラインにバッテリー容量を表示する
-(display-battery-mode 1)
+(when (not windows-p)
+  (display-battery-mode 1))
 ;; ツールバーを消す
 (tool-bar-mode -1)
 ;; スクロールバーを消す
