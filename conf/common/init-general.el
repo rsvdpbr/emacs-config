@@ -39,7 +39,8 @@
 					nil
 					'append)
   )
-(add-to-list 'default-frame-alist '(font . "fontset-ricty"))
+(when (not windows-p)
+  (add-to-list 'default-frame-alist '(font . "fontset-ricty")))
 
 ;; ユーザーの設定
 (setq user-full-name "Ryo Nishikawa")
