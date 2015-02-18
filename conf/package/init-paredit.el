@@ -14,4 +14,5 @@
 
 (define-key paredit-mode-map (kbd "C-M-f") 'paredit-forward-slurp-sexp)
 (define-key paredit-mode-map (kbd "C-M-b") 'paredit-forward-barf-sexp)
+(define-key paredit-mode-map (kbd "C-j")   'eval-print-last-sexp)
 
