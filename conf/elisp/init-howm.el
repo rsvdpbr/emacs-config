@@ -3,7 +3,7 @@
 
 (add-to-list 'load-path "~/.emacs.d/elisp/howm")
 ;; (setq howm-directory (concat user-emacs-directory "howm"))
-(setq howm-directory "~/Dropbox/Document/Howm")
+(setq howm-directory "/Volumes/ryo.nishikawa/Howm")
 (setq howm-file-name-format "%Y/%m/%Y-%m-%d-%H%M%S.howm")
 (setq howm-menu-lang 'ja)
 (require 'howm-mode)

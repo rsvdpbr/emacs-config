@@ -1,15 +1,18 @@
 ;;; ruby-block-autoloads.el --- automatically extracted autoloads
 ;;
 ;;; Code:
-(add-to-list 'load-path (or (file-name-directory #$) (car load-path)))
+
 
-;;;### (autoloads nil nil ("ruby-block.el") (21534 5272 674593 0))
+;;;### (autoloads nil nil ("ruby-block-pkg.el" "ruby-block.el") (21548
+;;;;;;  39585 573281 0))
 
 ;;;***
 
+(provide 'ruby-block-autoloads)
 ;; Local Variables:
 ;; version-control: never
 ;; no-byte-compile: t
 ;; no-update-autoloads: t
+;; coding: utf-8
 ;; End:
 ;;; ruby-block-autoloads.el ends here

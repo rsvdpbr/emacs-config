@@ -26,10 +26,10 @@
 (when darwin-p
   (create-fontset-from-ascii-font "Ricty-13:weight=normal:slant=normal" nil "ricty")
   (set-fontset-font "fontset-ricty"
-					'unicode
-					(font-spec :family "Ricty" :size 13)
-					nil
-					'append)
+  					'unicode
+  					(font-spec :family "Ricty" :size 13)
+  					nil
+  					'append)
   )
 (when linux-p
   (create-fontset-from-ascii-font "Ricty-10:weight=normal:slant=normal" nil "ricty")
@@ -120,8 +120,8 @@
 (setq display-time-24hr-format t) 
 (display-time-mode t)
 ;; モードラインにバッテリー容量を表示する
-(when (not windows-p)
-  (display-battery-mode 1))
+;; (when (not windows-p)
+;;   (display-battery-mode 1))
 ;; ツールバーを消す
 (tool-bar-mode -1)
 ;; スクロールバーを消す

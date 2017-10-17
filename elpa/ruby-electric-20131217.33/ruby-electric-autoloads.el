@@ -1,10 +1,10 @@
 ;;; ruby-electric-autoloads.el --- automatically extracted autoloads
 ;;
 ;;; Code:
-(add-to-list 'load-path (or (file-name-directory #$) (car load-path)))
+
 
-;;;### (autoloads nil "ruby-electric" "ruby-electric.el" (21534 5271
-;;;;;;  0 0))
+;;;### (autoloads (ruby-electric-mode) "ruby-electric" "ruby-electric.el"
+;;;;;;  (21548 39584 0 0))
 ;;; Generated autoloads from ruby-electric.el
 
 (autoload 'ruby-electric-mode "ruby-electric" "\
@@ -25,9 +25,16 @@ enabled.
 
 ;;;***
 
+;;;### (autoloads nil nil ("ruby-electric-pkg.el") (21548 39584 698675
+;;;;;;  0))
+
+;;;***
+
+(provide 'ruby-electric-autoloads)
 ;; Local Variables:
 ;; version-control: never
 ;; no-byte-compile: t
 ;; no-update-autoloads: t
+;; coding: utf-8
 ;; End:
 ;;; ruby-electric-autoloads.el ends here

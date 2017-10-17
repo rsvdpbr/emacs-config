@@ -39,6 +39,7 @@
 (require 'init-js2-mode)
 (require 'init-magit)
 (require 'init-markdown-mode)
+(require 'init-multiple-cursors)
 (require 'init-paredit)
 (require 'init-php-mode)
 (require 'init-python-mode)
