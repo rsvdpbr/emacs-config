@@ -73,6 +73,7 @@
 	       'lisp-intraction-mode-hook
 	       'lisp-mode-hook
 	       'clojure-mode-hook
+	       'go-mode-hook
 	       'java-mode-hook
 	       'scala-mode-hook
 	       'html-mode-hook

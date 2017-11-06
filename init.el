@@ -35,6 +35,7 @@
 (require 'init-color-theme)
 (require 'init-elscreen)
 (require 'init-eredis)
+(require 'init-go-mode)
 (require 'init-jade-mode)
 (require 'init-js2-mode)
 (require 'init-magit)
