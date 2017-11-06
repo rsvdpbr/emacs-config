@@ -85,7 +85,8 @@
 	       'python-mode-hook
 	       'c++-mode-hook
 	       'ruby-mode-hook
-             ))
+		   'typescript-mode-hook
+		   ))
 (add-hook hook (lambda () (linum-mode t))))
 
 ;; カーソルの点滅を止める

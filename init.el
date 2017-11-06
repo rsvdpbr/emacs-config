@@ -1,5 +1,12 @@
 ;; emacs-24.2 for mac os x
 
+
+;; Added by Package.el.  This must come before configurations of
+;; installed packages.  Don't delete this line.  If you don't want it,
+;; just comment it out by adding a semicolon to the start of the line.
+;; You may delete these explanatory comments.
+;; (package-initialize)
+
 (add-to-list 'load-path "~/.emacs.d/elisp")
 
 ;; common
@@ -51,6 +58,7 @@
 (require 'init-scss-mode)
 (require 'init-scala-mode2)
 (require 'init-slime)
+(require 'init-typescript-mode)
 (require 'init-undohist)
 (require 'init-undo-tree)
 (require 'init-virtualenv-mode)
@@ -66,3 +74,31 @@
 (require 'init-cake2)
 (require 'init-cc-mode)
 
+;; (custom-set-variables
+;;  ;; custom-set-variables was added by Custom.
+;;  ;; If you edit it by hand, you could mess it up, so be careful.
+;;  ;; Your init file should contain only one such instance.
+;;  ;; If there is more than one, they won't work right.
+;;  '(package-selected-packages
+;;    (quote
+;; 	(ng2-mode tss yasnippet yaml-mode w3m virtualenv undohist undo-tree smartrep slime scss-mode scala-mode2 ruby-electric ruby-block rhtml-mode redo+ python-mode powershell php-mode paredit multiple-cursors markdown-mode magit js2-mode jade-mode helm-descbinds haml-mode go-eldoc go-autocomplete flymake-go flymake flycheck eredis elscreen descbinds-anything company-go color-theme color-moccur coffee-mode clojure-mode cake2 applescript-mode anything-show-completion anything-obsolete anything-match-plugin anything-exuberant-ctags anything-config anything-complete ace-jump-mode))))
+;; (custom-set-faces
+;;  ;; custom-set-faces was added by Custom.
+;;  ;; If you edit it by hand, you could mess it up, so be careful.
+;;  ;; Your init file should contain only one such instance.
+;;  ;; If there is more than one, they won't work right.
+;;  )
+(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(package-selected-packages
+   (quote
+	(yasnippet yaml-mode w3m virtualenv undohist undo-tree smartrep slime scss-mode scala-mode2 ruby-electric ruby-block rhtml-mode redo+ python-mode powershell php-mode paredit ng2-mode multiple-cursors markdown-mode magit js2-mode jade-mode helm-descbinds haml-mode go-eldoc go-autocomplete flymake-go flymake flycheck eredis elscreen descbinds-anything company-go color-theme color-moccur coffee-mode clojure-mode cake2 applescript-mode anything-show-completion anything-obsolete anything-match-plugin anything-exuberant-ctags anything-config anything-complete ace-jump-mode))))
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ )
