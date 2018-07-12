@@ -6,6 +6,7 @@
 (setq howm-directory "/Volumes/ryo.nishikawa/Howm")
 (setq howm-file-name-format "%Y/%m/%Y-%m-%d-%H%M%S.howm")
 (setq howm-menu-lang 'ja)
+(require 'howm)
 (require 'howm-mode)
 
 

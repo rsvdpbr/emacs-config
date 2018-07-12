@@ -2,8 +2,8 @@
 (provide 'init-go-mode)
 
 
-(setenv "GOPATH" "/Users/ryo.nishikawa/.go")
-(add-to-list 'exec-path (expand-file-name "/Users/ryo.nishikawa/.go/bin"))
+(setenv "GOPATH" "/Users/ryo.nishikawa/go")
+(add-to-list 'exec-path (expand-file-name "/Users/ryo.nishikawa/go/bin"))
 (require 'go-autocomplete)
 
 (add-hook 'go-mode-hook 'go-eldoc-setup)

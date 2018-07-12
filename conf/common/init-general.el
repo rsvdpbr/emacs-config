@@ -103,8 +103,12 @@
               (count-lines (region-beginning) (region-end))
               (- (region-end) (region-beginning)))
     ""))
+(if (string-match "26" emacs-version)
+    (setq default-mode-line-format (default-value 'mode-line-format)))
 (add-to-list 'default-mode-line-format
              '(:eval (count-lines-and-chars)))
+(setq-default mode-line-format
+              '(:eval default-mode-line-format))
 
 ;; カーソルの位置を保存する
 (require 'saveplace)
