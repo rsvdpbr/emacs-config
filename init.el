@@ -64,6 +64,7 @@
 (require 'init-undohist)
 (require 'init-undo-tree)
 (require 'init-virtualenv-mode)
+(require 'init-web-mode)
 (require 'init-w3m)
 (require 'init-yasnippet)
 
@@ -97,7 +98,7 @@
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
    (quote
-    (tide cl-lib typescript-mode dash company js2-mode prettier-js protobuf-mode groovy-mode yasnippet yaml-mode w3m virtualenv undohist undo-tree slime scss-mode scala-mode2 ruby-electric ruby-block rhtml-mode redo+ python-mode powershell php-mode paredit ng2-mode multiple-cursors markdown-mode magit jade-mode helm-descbinds haml-mode go-eldoc go-autocomplete flymake-go flymake flycheck eredis descbinds-anything company-go color-theme color-moccur coffee-mode clojure-mode cake2 applescript-mode anything-show-completion anything-obsolete anything-match-plugin anything-exuberant-ctags anything-config anything-complete ace-jump-mode))))
+    (dockerfile-mode web-mode tide cl-lib typescript-mode dash company js2-mode prettier-js protobuf-mode groovy-mode yasnippet yaml-mode w3m virtualenv undohist undo-tree slime scss-mode scala-mode2 ruby-electric ruby-block rhtml-mode redo+ python-mode powershell php-mode paredit ng2-mode multiple-cursors markdown-mode magit jade-mode helm-descbinds haml-mode go-eldoc go-autocomplete flymake-go flymake flycheck eredis descbinds-anything company-go color-theme color-moccur coffee-mode clojure-mode cake2 applescript-mode anything-show-completion anything-obsolete anything-match-plugin anything-exuberant-ctags anything-config anything-complete ace-jump-mode))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

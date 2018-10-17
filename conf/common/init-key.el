@@ -12,6 +12,7 @@
 (global-set-key (kbd "C-%") 'query-replace-regexp)
 ;;; フルスクリーン化
 (global-set-key (kbd "C-c f") 'toggle-frame-fullscreen)
+(global-set-key (kbd "M-RET") 'toggle-frame-fullscreen)
 
 ;; Delete
 (global-set-key (kbd "C-h") 'delete-backward-char)
@@ -39,4 +40,12 @@
 (global-set-key (kbd "M-N") 'enlarge-window)
 (global-set-key (kbd "M-F") 'shrink-window-horizontally)
 (global-set-key (kbd "M-B") 'enlarge-window-horizontally)
+
+;; Change character size
+(global-set-key (kbd "M-=") 'text-scale-increase)
+(global-set-key (kbd "M--") 'text-scale-decrease)
+
+;; Keyboare macro
+(global-set-key (kbd "M-9") 'kmacro-start-macro)
+(global-set-key (kbd "M-0") 'kmacro-end-and-call-macro)
 

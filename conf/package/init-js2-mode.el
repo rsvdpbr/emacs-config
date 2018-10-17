@@ -6,7 +6,7 @@
 (add-hook 'js2-mode-hook
           (lambda ()
 			(define-key js2-mode-map (kbd "C-M-h") 'backward-kill-word)
-			(define-key js2-mode-map (k2bd "C-m") nil)))
+			(define-key js2-mode-map (kbd "C-m") nil)))
 (add-hook 'js2-mode-hook 'prettier-js-mode)
 
 (setq js-indent-level 2)
